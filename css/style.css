@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.global-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    width: auto;
+    height: auto;
+}
+
+.standings-wrapper {
+    width: 50%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #00ff89;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.standings-wrapper__title {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00c86b;
+    letter-spacing: 5px;
+    opacity: 0.5;
+}
+
+.results-wrapper {
+    width: 50%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #00f8ff;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.resuts-wrapper__title {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00d0d6;
+    letter-spacing: 5px;
+    opacity: 0.5;
+}
+
+/*Standings styles*/
+.table-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.table {
+    margin: 0 10px;
+    border-collapse: collapse;
+    background-color: #fff;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.table__head-cell {
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.table__team_rline {
+    border-right: 1px solid #d1d1d1;
+}
+
+.table__cell {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.table__team {
+    padding-left: 15px;
+    text-align: left;
+    min-width: 100px;
+}
+
+/*Matchdays styles*/
+.matchdays-wrapper {
+    margin: 0 10px;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.matchdays-table {
+    background-color: #fff;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.matchdays-table__header {
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.matchdays-table__title {
+    font-weight: bold;
+}
+
+.matchdays-table__cell {
+    height: 40px;
+    text-align: center;
+}
+
+.matchdays-table__nextBtn,
+.matchdays-table__prevBtn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #00ff89;
+}
+
+.matchdays-table__homeTeam,
+.matchdays-table__awayTeam {
+    width: 170px;
+}
+
+.matchdays-table__homeTeam {
+    text-align: right;
+}
+
+.matchdays-table__awayTeam {
+    text-align: left;
+}
+
+.matchdays-table__score {
+    width: auto;
+}

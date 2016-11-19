@@ -1,0 +1,16 @@
+@media screen and (max-width: 1377px) {
+    
+    .standings-wrapper,
+    .results-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) (max-width: 680px) {
+    
+    .standings-wrapper,
+    .results-wrapper {
+        min-width: none;
+    }
+    
+}
